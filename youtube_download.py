@@ -25,7 +25,7 @@ while True:
     except ValueError:
         print "Please enter a valid number"
 
-#author = 'mdloughy'
+
 inp = urllib.urlopen(r'http://gdata.youtube.com/feeds/api/users/' + author + '/uploads?alt=json')
 resp = json.load(inp)
 inp.close()
